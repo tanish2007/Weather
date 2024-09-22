@@ -1,19 +1,27 @@
+# **Weather Application**
 
-# **Movie Listing Application**
-
-A React-based movie browsing platform that connects to an external API to display movie ratings and information.
+A React-based weather application that provides real-time weather updates by fetching data from an external API.
 
 ## Features:
-- **Personalized Watchlists:**  
-  Users can easily add or remove movies to build their own custom watchlists.
+- **Real-time Weather Updates:**  
+  Displays the current temperature and weather conditions using live data from a weather API.
   
-- **Sort by Ratings:**  
-  Sort movies based on their ratings to discover the top-rated films effortlessly.
+- **Weather Emojis:**  
+  Shows weather conditions (e.g., sunny, rainy, thunderstorm) with corresponding emojis.
+  
+- **Date & Time Display:**  
+  Includes the current day, date, and time for added context.
 
 ## Getting Started:
+
+### Prerequisites:
+- Node.js and npm installed.
+- API key from a weather data provider.
+
+### Installation:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-listing-app.git
+   git clone https://github.com/your-username/weather-app.git
 2. Install dependencies:
    ```bash
    npm install
@@ -22,6 +30,6 @@ A React-based movie browsing platform that connects to an external API to displa
    npm start
 
 ##  Technologies Used:
-- React
-- External Movie API
-- CSS
+- React for building the UI.
+- JavaScript for fetching data and handling logic.
+- Weather API for real-time weather updates.
